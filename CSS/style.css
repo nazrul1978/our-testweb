@@ -1,0 +1,82 @@
+/*universel selector*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+/*element selector*/
+body{
+    background-color: aqua;
+}
+/*Id selector*/
+#admin-box{
+    background-color:green;
+    text-align: center;
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px; 
+}
+/*Class selector*/
+.heading{
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: bottom 30px;
+}
+
+
+/*Grouping selector*/
+input,label{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+label {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;auto
+    font-family: "arial narrow,arial"
+    font-weight: 600;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    background-color:transparent;
+    border: 2px solid black;
+    color: blue;
+
+} 
+/*Psudu element selector*/
+input::placeholder{
+    color:black
+    font-size: 17px;
+}
+/*atribute select*/
+inpuit[type="submit"]{
+    width: 50%;
+    margin: 20px auto;
+    text-transform: capitalize;
+    transition: ease-in 0.5s;
+}
+
+/*Psudu Class selector*/
+input[type="submit"]:hover{
+    background-color:rgb(134, 40, 64);
+    font-size: 17px;
+}
+p{
+    font-size: 20px;
+    text-transform: lowercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Decendent selector*/
+p a{
+    text-transform: capitalize;
+    color: palevioletred;
+}
+.pg{
+    text-transform: uppercase;
+}
+<img> src="N122.jpg"/>
