@@ -1,4 +1,4 @@
-/*universel selector*/
+/*universal selector*/
 *{
     margin: 0;
     padding: 0;
@@ -9,13 +9,13 @@
 body{
     background-color: aqua;
 }
-/*Id selector*/
+/*id selector*/
 #admin-box{
-    background-color:green;
+    background-color: darkgreen;
     text-align: center;
     width: 50%;
     margin: 10% auto;
-    padding: 20px; 
+    padding: 20px;
 }
 /*Class selector*/
 .heading{
@@ -23,60 +23,48 @@ body{
     font-size: 35px;
     line-height: 35px;
     font-family: 'Courier New', Courier, monospace;
-    margin: bottom 30px;
+    margin-bottom: 30px;
 }
-
-
 /*Grouping selector*/
-input,label{
-    display: block;
+input,
+label{
+    display:block;
     width: 80%;
     margin: auto;
 }
-label {
+label{
     font-size: 20px;
     line-height: 20px;
-    margin: 10px;auto
-    font-family: "arial narrow,arial"
+    margin: 10px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
-    text-align: center;
 }
 input{
     padding: 10px;
-    background-color:transparent;
-    border: 2px solid black;
-    color: blue;
+    background-color: brown;
+    border: 3px solid black;
+    font-size: 17px;
+}
 
-} 
-/*Psudu element selector*/
+    /*psude elemant eslector*/
 input::placeholder{
-    color:black
+    color: black;
     font-size: 17px;
-}
-/*atribute select*/
-inpuit[type="submit"]{
-    width: 50%;
-    margin: 20px auto;
-    text-transform: capitalize;
-    transition: ease-in 0.5s;
-}
 
-/*Psudu Class selector*/
-input[type="submit"]:hover{
-    background-color:rgb(134, 40, 64);
-    font-size: 17px;
 }
-p{
-    font-size: 20px;
-    text-transform: lowercase;
-    font-family: 'Courier New', Courier, monospace;
+/*atribute selector*/
+input[type="submit"]{
+    background-color: aqua;
+    width: 50%;
+    margin-top: 20px;
 }
-/*Decendent selector*/
-p a{
-    text-transform: capitalize;
-    color: palevioletred;
+P{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+
 }
-.pg{
-    text-transform: uppercase;
+input[value]{
+    text-align: center;
+
 }
-<img> src="N122.jpg"/>
