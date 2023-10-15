@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+body{
+     /*background-color: blueviolet;*/
+     background-image: url(../image/Mount.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+    
+
+}
+.container{
+    background-color: aqua;
+    text-align: center;
+    width: 40%;
+    margin: 10%; auto;
+    padding: 0px;
+    border-radius: 10px;
+
+}
+h1{font-size: 40px;
+    font-family: monospace;
+    
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+form input:focus{
+    background-color: rgb(230, 59, 110);
+
+}
+form label::first-letter{
+    font-size: 30px;
+}
+input,label{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 8px;
+}
+input{
+    background-color: rgb(168, 150, 185);
+}
+label{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    margin: 50px; 1px;
+}
+#btn{
+    margin-top: 20px;
+    width: 50%;
+}
+#btn:hover{
+    background-color: blue;
+    text-align: center;
+}
